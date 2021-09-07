@@ -10,7 +10,7 @@ from asyncio.exceptions import TimeoutError
 
 async def send_request(url: str) -> List[List[int]]:
     """
-    This function send a request to URL and processes the response, if any
+    This function sends a request to URL and processes the response, if any
     :param url: URL
     :return: formatted matrix if response exists
     """
